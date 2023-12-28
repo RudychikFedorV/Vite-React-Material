@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  margin-inline: auto;
+  flex-direction: column;
+  max-width: 750px;
+  padding: 10px;
+}
+.AppMenu {
+  margin-bottom: 50px;
+}
+.Paginations {
+  margin-inline: auto;
+  margin-bottom: 50px;
+}
+.ColorButton {
+  display: flex;
+  margin-inline: auto;
+  margin-bottom: 50px;
+  gap: 15px;
+}
+.Checkboxs {
+  margin-inline: auto;
+  margin-bottom: 50px;
+}
+.Avatars {
+  margin-inline: auto;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+.BasicTextFields {
+  margin-inline: auto;
+  margin-bottom: 50px;
+}
+.ImageAvatars {
+  margin-inline: auto;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
